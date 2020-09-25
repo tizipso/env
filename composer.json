@@ -1,0 +1,26 @@
+{
+    "name": "tizipso/env",
+    "description": "Env Manager extension for dcat-admin",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension", "env"],
+    "homepage": "https://github.com/tizipso/env",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tizips",
+            "email": "tizips@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Env\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
